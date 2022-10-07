@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.springcore.Student" name="student1">
+
+        <property name="id">
+            <value>
+                32131
+            </value>
+        </property>
+
+        <property name="name">
+            <value>
+                Shubham Pawar
+            </value>
+        </property>
+        <property name="address">
+            <value>
+                Maharashtra
+            </value>
+        </property>
+    </bean>
+    
+    <bean class="com.springcore.Pepsi" name= "p1" >
+    
+    <property name="pepsi" value="5"></property>
+    
+    </bean>
+
+</beans>
